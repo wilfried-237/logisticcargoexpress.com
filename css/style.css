@@ -1,0 +1,43 @@
+ .body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0)
+    }
+    100%{
+        transform: translateX(calc(-250px * 3));
+    }
+}
+
+.slider-logo{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider-logo .slider-track-logo{
+     animation: scroll 30s linear infinite;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: calc(250px * 7);
+}
+
+.slider-logo .slider-logo{
+    height: 100px;
+    width: 250px;
+    
+} 
+
+.slider-logo img{
+    margin-left: 40px;
+    margin-right: 40px;
+}
